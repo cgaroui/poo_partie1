@@ -8,7 +8,7 @@ class Entreprise{
     private string $cp;
     private string $ville;
 
-    public function __construct(string $raisonsociale, string $dateCreation, string $adresse, 
+    public function __construct(string $raisonSociale, string $dateCreation, string $adresse, 
     string $cp, string $ville) {
         $this->raisonSociale = $raisonSociale;
         $this->dateCreation = new DateTime ($dateCreation);
